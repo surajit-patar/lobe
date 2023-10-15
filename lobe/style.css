@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    /* position: fixed; */
+}
+header .nav{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: black; */
+    padding: 50px;
+}
+#div1 img{
+    align-items: flex-start;
+}
+#div2{
+    width: 50%;
+    font-size: 22px;
+}
+#div2 a{
+    text-decoration: none;
+    color: #767676;
+    margin: 0px 15px;
+    transition: all ease 0.5s;
+}
+#div2 a:hover{
+    color: black;
+    transition: all ease 0.5s;
+}
+#div3 #btn1{
+    background-color: #04ddb2;
+    width: 129px;
+    height: 48px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    margin-top: 25px;
+}
+/* main style  */
+#main{
+    height: 100%;
+    width: 100vw;
+    /* background-color: #04ddb2; */
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+#page1 h1{
+    /* font-weight: 800; */
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#page1 h3{
+    margin-top: 10px;
+    font-size: 25px;
+    width: 32%;
+    /* white-space: wrap; */
+    text-align: center;
+    font-weight: 100;
+    line-height: 36px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #04ddb2; */
+    margin-top: 50px;
+}
+#page2 img{
+    /* margin-top: 25px; */
+    border: 2px solid white;
+    border-radius: 25px;
+    scale: 1;
+    transition: all ease 0.5s;
+}
+#page2 img:hover{
+    box-shadow: 5px 5px 5px rgb(0, 0, 0,0.5);
+    ;
+    scale: 1.111;
+    transition: all ease 1s;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 80px 0px;
+}
+#page3 h1{
+    font-size: 70px;
+    width: 32%;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page3 button{
+    margin-top: 45px;
+    background-color: #04ddb2;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+footer{
+    height: 50vh;
+    height: 100%;
+    /* background-color: #04ddb2; */
+}
+#things{
+    height: 50vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #04ddb2; */
+    gap: 10px;
+    border-top: 1px solid;
+    margin-left: 174px;
+}
+footer .content{
+    height: 70%;
+    width: 13%;
+    margin: 0px 15px;
+    color: #000;
+    /* background-color: aqua; */
+    padding: 35px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#box2,#box3,#box4{
+    margin-top: 23px;
+    cursor: pointer;
+}
+.content p:hover{
+    color: #767676;
+    transition: all ease 0.5s;
+}
+button{
+    transition: all ease 0.5s;
+}
+button:hover{
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.34);
+    scale: .8;
+    transition: all ease 0.5s;
+    
+}
